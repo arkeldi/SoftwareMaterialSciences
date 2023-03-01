@@ -22,6 +22,7 @@ they provide drivers that would enable us to directly read the temperature.
 
 
 Putting it all together:
+
 A. I had to figure out how to program either a Python program to read and store values from
 the DAQ (temperature), Display (temperature), and the extensometer in a single file along with
 the system time using the same program. The main challenge here would be the fact that they
