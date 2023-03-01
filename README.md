@@ -12,13 +12,18 @@ page 36)
 4. Extensometer (refer desktop: C:\\Program Files (x86)\MTS 793\Help in the 793 Tuning and
 Calibration handbook)
 
-Dataq’s proprietary software to read the values from a thermocouple is already installed and works as
+Dataq’s proprietary software to read the values from a thermocouple was already installed and works as
 expected. However, that gives us no flexibility and is rather cumbersome to log the temperatures
 separate to the other values-namely force/stress applied by the hydraulic frame and the stain or
 elongation of the stain gauge measured by the extensometer.
 
 Within the Dataq software there was a way to get the temperature readings directly, but I was not sure if
 they provide drivers that would enable us to directly read the temperature.
+  
+The solution is to write Python code to read and store values from the DAQ. The expected raw
+input will be multichannel because there are two terminals per thermocouple and multiple
+thermocouples. The raw output is two potentials. The potential difference across two terminals of a
+thermocouple correspond to the temperature measured across the thermocouple junction.
 
 
 Putting it all together:
