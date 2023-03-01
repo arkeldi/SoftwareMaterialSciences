@@ -9,7 +9,7 @@ Components that were connected to the computer were:
 connected to the generator (refer Creep-Fatigue documentation/Chapter 2/Instruction Manual-
 page 36)
 3. Hydraulic frame (already connected; will send you pdf of the documentation)
-4. Extensometer (refer desktop: C:\\Program Files (x86)\MTS 793\Help in the 793 Tuning and
+4. Extensometer (desktop: C:\\Program Files (x86)\MTS 793\Help was in the 793 Tuning and
 Calibration handbook)
 
 Dataq’s proprietary software to read the values from a thermocouple was already installed and works as
