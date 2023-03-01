@@ -4,8 +4,8 @@ The files included within this repository is documentation of my time as a resea
 
 Components that were connected to the computer were:
 
-1. DAQ board (3-4 thermocouples)Thermocouples (input as voltage-mV)
-2. Temperature display from omegaThermocouple (input) with a 4-20mA secondary output
+1. DAQ board (3-4 thermocouples)Thermocouples (input as voltage-mV)
+2. Temperature display from omegaThermocouple (input) with a 4-20mA secondary output
 connected to the generator (refer Creep-Fatigue documentation/Chapter 2/Instruction Manual-
 page 36)
 3. Hydraulic frame (already connected; will send you pdf of the documentation)
@@ -26,11 +26,14 @@ A. I had to figure out how to program either a Python program to read and store 
 the DAQ (temperature), Display (temperature), and the extensometer in a single file along with
 the system time using the same program. The main challenge here would be the fact that they
 all have different sampling rate that need to be accounted for/averaged to record at a set rate.
+  
 B. Incorporate the input from the load cell in the hydraulic frame (force readings) into the same
 program.
+  
 C. Being able use the desktop to remotely program the generator to have certain temperature-
 time values (aka ‘recipes’ in Fives Celes terminology) without using the touchscreen input of the
 generator.
+  
 D. Being able to program stress-time or force-time inputs to the frame and logging the values
 without using their proprietary software (refer to screenshot on drive titled MTS reply)
 
